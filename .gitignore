@@ -30,3 +30,4 @@ jsdoc/
 # FE local build dir
 dist/
 proxy.conf.js
+protractor.conf.js
