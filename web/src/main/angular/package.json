@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve pinpoint",
+    "start": "ng serve pinpoint --host 0.0.0.0 --port 4200",
     "start:real": "ng serve pinpoint --prod",
     "build": "ng build pinpoint",
     "build:real": "ng build pinpoint --prod",
