@@ -49,14 +49,14 @@ const PROXY_CONFIG = [
             "/admin/removeInactiveAgents.pinpoint",
             "/bind.pinpoint"
         ],
-        target: 'http://localhost:8080',
+        target: 'http://localhost:28080',
         secure: false
     },
     {
         context: [
             "/agent/activeThread.pinpointws"
         ],
-        target: "http://localhost:8080",
+        target: "http://localhost:28080",
         secure: false,
         ws: true
     }
