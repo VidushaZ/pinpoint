@@ -36,7 +36,13 @@
     font-size: 18px;
     margin-right: 15px;
 }
-
+.fa-bars{
+    color: white;
+}
 button {
     outline: none;
 }
+.drawer-content{
+    overflow-y: hidden;
+}
+

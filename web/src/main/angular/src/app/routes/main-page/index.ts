@@ -3,6 +3,7 @@ import { RouterModule } from '@angular/router';
 
 import { SharedModule } from 'app/shared';
 import { NoticeModule } from 'app/core/components/notice';
+import {MatNativeDateModule} from '@angular/material/core';
 import { ApplicationListModule } from 'app/core/components/application-list';
 import { ServerMapOptionsModule } from 'app/core/components/server-map-options';
 import { PeriodSelectorModule } from 'app/core/components/period-selector';
@@ -13,6 +14,7 @@ import { SideBarModule } from 'app/core/components/side-bar';
 import { MainPageComponent } from './main-page.component';
 import { routing } from './main-page.routing';
 import { HelpViewerPopupModule } from 'app/core/components/help-viewer-popup';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 @NgModule({
     declarations: [
@@ -21,7 +23,9 @@ import { HelpViewerPopupModule } from 'app/core/components/help-viewer-popup';
     imports: [
         SharedModule,
         NoticeModule,
+        MatNativeDateModule,
         ApplicationListModule,
+        MatSidenavModule,
         ServerMapOptionsModule,
         PeriodSelectorModule,
         ConfigurationIconModule,
